@@ -73,4 +73,5 @@ fig2 = go.Figure(data=[go.Sankey(
 ])
 
 #save as html
+fig2.write_html("HW5_SankeyPlot.html")
 fig2.show()
